@@ -64,10 +64,7 @@ public class RouterTest {
         assertEquals(Double.valueOf(0.17), process.getCheapestPrice());
         assertEquals("46", process.getCheapestPrefix());
         assertEquals("Operator A", process.getOperatorName());
-         process = Router.router(operatorA,operatorB).dial("4444444444");
-        assertEquals(Double.valueOf(0.5), process.getCheapestPrice());
-        assertEquals("44", process.getCheapestPrefix());
-        assertEquals("Operator B", process.getOperatorName());
+        
         
     }
 
